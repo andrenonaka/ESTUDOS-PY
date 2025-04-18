@@ -16,3 +16,8 @@ https://code.visualstudio.com/docs/python/python-tutorial
 
 Guia de Markdown: https://www.markdownguide.org/cheat-sheet/
 
+# COMANDOS DE TERMINAL
+
+mkdir - make directory
+cd - change directory
+code . - code on that directory
