@@ -15,18 +15,14 @@ We define a is_numeric() function to "try()" for int number. If int, return True
             return False
 ```
 
-We do not want to convert the age var to int using is_numeric() right away, since we may want to use this function for other checks later. We convert age to int in the block that asks for the age input. This block also prints 
+We do not want to convert the age var to int using is_numeric() right away, since we may want to use this function for other checks later. We convert age to int in the block that asks for the age input. This block also prints age and age +1.
 
 ```python
 if is_numeric(age):
-    age = int(age)
-    print("Você tem " + str(age) + " anos")
-    print("Você terá " + (str(age + 1)+ " anos no ano que vem"))
+    print("Você tem " + age + " anos")
+    print("Você terá " + (str((int(age) + 1))+ " anos no ano que vem"))
 else:
     print("Esse valor não é um número inteiro")
 ```
-
-We could, instead of age = int(age), create another var (such as "ageint") to make sure that the age var is kept pure, but in the context of this code there is no situation where we would use the age var as a str, so the block above works fine.
-
 
 
