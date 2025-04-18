@@ -22,4 +22,6 @@ mkdir - make directory
 
 cd - change directory
 
+cd .. - return to previous directory
+
 code . - code on that directory
