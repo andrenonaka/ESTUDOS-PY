@@ -12,7 +12,7 @@ def is_numeric(n):
     except ValueError:
         return False
 ```
-If the received input in not an int, we request new input with while until we receive an int.
+If the received input is not an int, we request new input with while until we receive an int.
 
 ```python
 num = input()
