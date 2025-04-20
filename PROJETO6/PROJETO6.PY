@@ -8,7 +8,7 @@ def main_menu():
     print('Main Menu')
     print('type a number to choose, or type nothing to quit')
     print('0 - show inventory')
-    print('1 - attack monster')
+    print('1 - attack monster') 
     while True:
         command = input()
         if command == '':
@@ -19,10 +19,10 @@ def main_menu():
             choose_attack()
 
 def manage_inv():
-    print('Current inventory. Type nothing to return to main menu.')
-    print(inventory)
-    command = input()
     while True:
+        print('Current inventory. Type nothing to return to main menu.')
+        print(inventory)
+        command = input()
         if command == '':
             main_menu()
     
