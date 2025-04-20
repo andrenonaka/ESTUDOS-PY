@@ -19,10 +19,10 @@ def main_menu():
             choose_attack()
 
 def manage_inv():
-    print('Current inventory. Type nothing to return to main menu.')
-    print(inventory)
-    command = input()
     while True:
+        print('Current inventory. Type nothing to return to main menu.')
+        print(inventory)
+        command = input()
         if command == '':
             main_menu()
     
