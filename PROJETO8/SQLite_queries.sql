@@ -1,0 +1,6 @@
+-- SQLite
+--INSERT INTO cachorros VALUES ("texto1", "texto2", "texto3");
+--DELETE FROM tabela1 WHERE 1=1;
+--UPDATE tabela1 SET nome = "teste5" WHERE id = 6;
+--SELECT * FROM tabela1;
+--SELECT name FROM sqlite_master WHERE type='table'
