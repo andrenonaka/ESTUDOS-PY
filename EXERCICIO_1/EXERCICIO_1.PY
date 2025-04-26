@@ -36,7 +36,7 @@ def compra_animal(bois_comprados, vacas_compradas, bezerros_comprados):
         bezerro.valor*int(bezerros_comprados) == 100) and (int(bois_comprados) +
         int(vacas_compradas) + int(bezerros_comprados) == 100):
         print('Correto!')
-        sys.exit
+        sys.exit()
     else:
         print('Incorreto')
 
@@ -55,7 +55,6 @@ def main_loop():
         validar_lista = validate(lista_valores)
 
         if validar_lista == True:
-
             compra_animal(*lista_valores)
 
 main_loop()
